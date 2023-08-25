@@ -1,0 +1,26 @@
+body {
+    background-color: #000000;
+    color: #ececec;
+    margin: 0;
+    padding: 0;
+}
+
+.border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.main_header {
+    font-family: 'PPNeueMontreal-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    z-index: 1;
+}
