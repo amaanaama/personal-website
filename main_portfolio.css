@@ -1,0 +1,119 @@
+
+body {
+    background-color: #ececec;
+    color: #000000;
+    
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-top: 20px;
+    position: absolute;
+    /*move to top left*/
+    
+  }
+  
+  .border{
+    position: absolute;
+      top: 80px; /* Adjust top position */
+      left: 80px; /* Adjust left position */
+      right: 80px; /* Adjust right position */
+      bottom: 80px; /* Adjust bottom position */
+      border: 1px solid #000;
+      z-index: 0;
+      overflow: hidden;
+  }
+  
+  
+  .main_header{
+    font-family: 'PPNeueMontreal-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 1;
+  }
+  
+  .main_subheader{
+    font-family: 'PPNeueMontreal-Book', sans-serif;
+    font-size: 12px;
+    line-height: 1;
+  }
+  
+ 
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.grid-item {
+  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item img {
+  max-width: 100%;
+  max-height: 75%;
+  width: auto;
+  height: auto;
+}
+
+.caption {
+  font-family: 'PPNeueMontreal-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  color: #000000;
+  padding: 5px;
+  position: absolute;
+  top: 20;
+  left: 100%; /* Position the caption to the right of the image */
+  transform: translateX(5px); /* Add a small gap between image and caption */
+  width: 500px; /* Adjust the width as needed */
+  white-space: normal; /* Allow text to wrap within the specified width */
+}
+
+.subcaption {
+  font-family: 'PPNeueMontreal-Book', sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  color: #000000;
+  padding: 5px;
+  position: absolute;
+  top: 50;
+  left: 100%; /* Position the caption to the right of the image */
+  transform: translateX(5px); /* Add a small gap between image and caption */
+  width: 250px; /* Adjust the width as needed */
+  white-space: normal; /* Allow text to wrap within the specified width */
+}
+
+.links{
+    font-family: 'PPNeueMontreal-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    color: #000000;
+    padding: 5px;
+    position: absolute;
+    top: 158;
+    left: 100%; /* Position the caption to the right of the image */
+    transform: translateX(5px); /* Add a small gap between image and caption */
+    width: 250px; /* Adjust the width as needed */
+    white-space: normal; /* Allow text to wrap within the specified width */
+  
+}
+
+.links a{
+  color: #000000;
+}
+
+.links a + a {
+  margin-left: 10px; /* Add margin to the left of the second link */
+}
+
+
