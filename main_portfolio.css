@@ -59,8 +59,8 @@ body {
 }
 
 .grid-item img {
-  max-width: 100%;
-  max-height: 75%;
+  max-width: 90%;
+  max-height: 90%;
   width: auto;
   height: auto;
 }
@@ -72,7 +72,7 @@ body {
   color: #000000;
   padding: 5px;
   position: absolute;
-  top: 20;
+  top: 5;
   left: 100%; /* Position the caption to the right of the image */
   transform: translateX(5px); /* Add a small gap between image and caption */
   width: 500px; /* Adjust the width as needed */
@@ -86,7 +86,7 @@ body {
   color: #000000;
   padding: 5px;
   position: absolute;
-  top: 50;
+  top: 40;
   left: 100%; /* Position the caption to the right of the image */
   transform: translateX(5px); /* Add a small gap between image and caption */
   width: 250px; /* Adjust the width as needed */
@@ -100,7 +100,7 @@ body {
     color: #000000;
     padding: 5px;
     position: absolute;
-    top: 158;
+    top: 132;
     left: 100%; /* Position the caption to the right of the image */
     transform: translateX(5px); /* Add a small gap between image and caption */
     width: 250px; /* Adjust the width as needed */
